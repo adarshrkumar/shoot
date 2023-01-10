@@ -1,11 +1,6 @@
 var input
 var pass = prompt('')
 var correct = document.getElementById('password').value
-let newWindow;
-let lStorage = String(localStorage.getItem('page'))
-if (lStorage === 'null') {
-  lStorage = ''
-}
 if (pass == correct) {
   document.documentElement.innerHTML = `
   <head>
@@ -23,7 +18,6 @@ if (pass == correct) {
     <iframe frameborder="0" src="https://www-https--www-google-com.RockGamerAK.com"></iframe>
   </body>
   `
-  input = document.querySelector('#url');
 }
 else {
   window.history.go(-1)
