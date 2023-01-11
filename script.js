@@ -9,7 +9,7 @@ if (location.href.contains('?')) {
   }
 }
 if (pass === false) {
-  var pass = prompt('')
+  pass = prompt('')
 }
 
 if (pass == correct) {
