@@ -1,6 +1,17 @@
 var input
-var pass = prompt('')
 var correct = document.getElementById('password').value
+var pass = false
+if (location.href.contains('?')) {
+  if (location.href.contains('pass=')) {
+    if (atob(location.href.split('pass=')[1]) === correct) {
+      pass = correct
+    }
+  }
+}
+if (pass === false) {
+  var pass = prompt('')
+}
+
 if (pass == correct) {
   document.documentElement.innerHTML = `
   <head>
