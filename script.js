@@ -12,7 +12,7 @@ if (pass === false) {
   pass = prompt('')
 }
 
-if (pass == correct) {
+if (pass === correct) {
   document.documentElement.innerHTML = `
   <head>
     <title>Google</title>
