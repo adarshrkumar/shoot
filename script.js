@@ -13,13 +13,11 @@ if (pass === false) {
   pass = prompt('')
 }*/
 
-if (Boolean(enabled) === true) {
-  document.querySelector('iframe').style.display = 'none'
+if (Boolean(enabled) !== true) {
+  window.history.go(-1)
+  location.href = 'https://google.com'
 }
-else if (pass === correct) {
-  document.querySelector('iframe').style.display = 'none'
-}
-else {
+else if (pass !== correct) {
   window.history.go(-1)
   location.href = 'https://google.com'
 }
