@@ -1,4 +1,5 @@
-var input
+var pass = false
+/*var input
 var correct = document.getElementById('password').value
 var pass = false
 if (location.href.contains('?')) {
@@ -10,11 +11,11 @@ if (location.href.contains('?')) {
 }
 if (pass === false) {
   pass = prompt('')
-}
+}*/
 
+var correct = true
 if (pass === correct) {
-  document.documentElement.innerHTML = `
-  `
+  document.querySelector('iframe').style.display = 'none'
 }
 else {
   window.history.go(-1)
