@@ -14,19 +14,6 @@ if (pass === false) {
 
 if (pass === correct) {
   document.documentElement.innerHTML = `
-  <head>
-    <title>Google</title>
-    <link rel="icon" href="https://google.com/favicon.ico" />
-    <style>
-      html, body, iframe {
-        height: 100%;
-        width: 100%;
-        margin: 0;
-      }
-    </style>
-  </head>
-  <body style="margin: 0;">
-  </body>
   `
 }
 else {
