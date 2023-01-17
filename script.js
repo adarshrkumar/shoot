@@ -1,4 +1,4 @@
-var pass = true
+var enabled = true
 /*var input
 var correct = document.getElementById('password').value
 var pass = false
@@ -13,8 +13,10 @@ if (pass === false) {
   pass = prompt('')
 }*/
 
-var correct = true
-if (pass === correct) {
+if (Boolean(enabled) === true) {
+  document.querySelector('iframe').style.display = 'none'
+}
+else if (pass === correct) {
   document.querySelector('iframe').style.display = 'none'
 }
 else {
