@@ -26,7 +26,6 @@ if (pass === correct) {
     </style>
   </head>
   <body style="margin: 0;">
-    <iframe frameborder="0" src="https://www-https--www-google-com.RockGamerAK.com"></iframe>
   </body>
   `
 }
