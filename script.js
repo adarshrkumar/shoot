@@ -1,4 +1,4 @@
-var enabled = false
+var enabled = true
 /*var input
 var correct = document.getElementById('password').value
 var pass = false
