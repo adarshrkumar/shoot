@@ -1,5 +1,5 @@
 var enabled = true
-/*var input
+var input
 var correct = document.getElementById('password').value
 var pass = false
 if (location.href.contains('?')) {
@@ -11,13 +11,13 @@ if (location.href.contains('?')) {
 }
 if (pass === false) {
   pass = prompt('')
-}*/
+}
 
 if (Boolean(enabled) !== true) {
   window.history.go(-1)
-  location.href = 'https://google.com'
+  location.href = 'https://RockGamerAK.com/404'
 }
 else if (pass !== correct) {
   window.history.go(-1)
-  location.href = 'https://google.com'
+  location.href = 'https://RockGamerAK.com/404'
 }
